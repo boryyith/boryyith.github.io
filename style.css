@@ -22,6 +22,14 @@ body{
     left: 0;
 }
 
+#overlay-footer{
+    background: var(--main-white);
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    position: fixed;
+}
+
 /* BOOTSTRAP */
 .navbar{
     padding: 0px 8px;
