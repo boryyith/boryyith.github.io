@@ -1,0 +1,39 @@
+<script>    
+    $(document).ready(function() {
+        console.log("Hello d:^)");
+        $("#page-name-" + pageName).addClass("active");
+        $("#overlay").fadeOut();
+    });
+</script>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+        <div id="main-logo" class="no-select">
+            <div>
+                <span class="logo-lg">B</span><span class="logo">ORY</span><span class="logo"> </span><span class="logo-lg">Y</span><span class="logo">ITH</span>
+            </div>
+            <div id="main-logo-sub">
+                <span id="logo-sub">My personal website</span>
+            </div>
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li id="page-name-index" class="nav-item">
+                <a class="nav-link" href="index.html">INTRODUCTION</a>
+            </li>
+            <li id="page-name-projects" class="nav-item">
+                <a class="nav-link" href="projects.html">PROJECTS</a>
+            </li>
+            <li id="page-name-art" class="nav-item">
+                <a class="nav-link" href="art.html">ART</a>
+            </li>
+            <li id="page-name-contact" class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+</nav>
